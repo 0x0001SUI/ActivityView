@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         Button {
-            activityView([URL(string: "https://dmkskn.com")!])
+            activityView([URL(string: "https://dmkskn.com")!], nil)
         } label: {
             Text("Share")
         }
